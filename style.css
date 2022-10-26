@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(215, 250, 243);
+}
+
+section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hobby-section{
+    text-align: center;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.interests-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description-section{
+    text-align: center;
+}
+
+.gallery-section{
+    text-align: center;
+}
+
+.job-photos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.field-photo {
+    width: 150px;
+}
+
+.contact-section{
+    text-align: center;
+}
